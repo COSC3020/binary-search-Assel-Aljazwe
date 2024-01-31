@@ -11,7 +11,7 @@ function binarySearch(list, element) {
 
         if (list[middle] === element) {
             // Since the test expects the first occurrence of the element,
-            // we need to handle duplicates by moving left in the array.
+            // we handle duplicates by moving left in the array.
             while (middle > 0 && list[middle - 1] === element) {
                 middle--;
             }
